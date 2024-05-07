@@ -1,0 +1,44 @@
+*{
+    direction: rtl;
+    font-size: 20px;
+    font-family: vazirmatn;
+    box-sizing: border-box;
+}
+form{
+    
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    margin-right: 40%;
+    margin-left: 30%;
+    height: 500px;
+    width: 400px;
+}
+p{
+    font-size: 30px;
+}
+.mcode{
+    display: block;
+    margin-top: 5%;
+    /* margin-right:20%; */
+}
+label{
+    display: block;
+    margin-top: 5%;
+}
+input[id=fname],input[id=lname],input[id=mcode]{
+    width: 100%;
+}
+.submit{
+    display: inline;
+    margin-top: 8%;
+    text-align: center; 
+}
+.reset{
+    display: inline;
+    margin-top: 8%;
+    margin-right: 2%;
+    text-align: center; 
+}
+.sample{
+    direction: ltr;
+}
