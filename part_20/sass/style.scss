@@ -1,0 +1,20 @@
+@import "vars";
+@import "initialize";
+
+body{
+    background-color: $bgcolor;
+    color: $color;
+    padding-left: $size;
+    padding-top: $size;
+    padding-right: $size;
+    font-size: $fontsize;
+    font-family: $fontseries;
+}
+.lorem{
+    width: $width;
+    border:  2px solid $color;
+    border-radius: 5px;
+    padding: $size;
+    background-color: $bgroundcolor;
+    direction: rtl;
+}
