@@ -1,0 +1,20 @@
+@import "lightmode";
+// @import "darkmode";
+
+
+body{
+    background-color: $bgcolor;
+    color: $color;
+    font-size: $size;
+    font-family:$fontfamily;
+    direction: rtl;
+    padding: 5% 10%;
+}
+.lorem{
+    background-color: $bgcolor;
+    color: $color;
+    border: 2px solid $color;
+    border-radius: 5px;
+    padding:2%;
+    width:$width;
+}
