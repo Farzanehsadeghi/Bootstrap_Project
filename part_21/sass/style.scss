@@ -1,0 +1,80 @@
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+  }
+  
+  .warning {
+    @include important-text;
+    background-color: green;
+  }  
+
+
+// ---------------------------------------
+
+@mixin danger{
+    background-color: red;
+    color: white;
+}
+@mixin primary{
+    background-color: blue;
+    color: white;
+     
+}
+
+.danger{
+    @include danger;  
+    
+    padding:15px;
+    display: block;
+    margin:10%;       
+}
+.danger:hover{
+    @include danger;
+    background-color: white;
+    color: black;
+}
+
+.primary{
+    @include primary;   
+    padding:10px;
+    display: block;
+    margin:10%;    
+}
+.primary:hover{
+    @include primary;
+    background-color: white;
+    color: black;
+}
+
+// ---------------------------------------
+
+@mixin botton($bgcolor,$color){
+    background-color:$bgcolor;
+    color: $color;
+    
+}
+
+.danger{
+    @include botton(red,white);
+    padding: 15px;  
+    display: block;
+    margin:10%;   
+          
+}
+.danger:hover{
+    @include botton(white,black);
+    
+}
+
+.primary{
+    @include botton(blue,white); 
+    padding: 15px;  
+    display: block;
+    margin:10%;     
+       
+}
+.primary:hover{
+    @include botton(white,black); 
+}

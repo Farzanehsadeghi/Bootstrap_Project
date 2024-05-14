@@ -1,0 +1,63 @@
+.warning {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 10%;
+}
+
+.danger:hover {
+  background-color: red;
+  color: white;
+  background-color: white;
+  color: black;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  display: block;
+  margin: 10%;
+}
+
+.primary:hover {
+  background-color: blue;
+  color: white;
+  background-color: white;
+  color: black;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 10%;
+}
+
+.danger:hover {
+  background-color: white;
+  color: black;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 10%;
+}
+
+.primary:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
