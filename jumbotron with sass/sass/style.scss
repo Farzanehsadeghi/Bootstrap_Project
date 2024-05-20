@@ -1,0 +1,29 @@
+@import "boot";
+@import "initialize";
+$bgcolor:#f2f2f2;
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        width: 100%;
+      }
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+.bg{
+    background-color:$bgcolor; 
+}
+.nav{
+  background-color:rgb(244, 243, 242);
+  width: 100%;
+}
+.nav-link:hover{
+  background-color:lightgray;
+}
